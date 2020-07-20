@@ -6,7 +6,7 @@ This repository contains [Watsor](https://github.com/asmirnou/watsor) add-ons fo
 
 1. Navigate to the _Supervisor_ panel in Home Assistant.
 2. Select _Add-on Store_ tab, then click on the menu icon at the top right.
-3. Add the following repository `https://github.com/asmirnou/watsor-haasio-addons`, then close pop up dialog.
+3. Add the following repository `https://github.com/asmirnou/watsor-hassio-addons`, then close pop up dialog.
 4. Find and install one of Watsor add-ons matching your hardware.
 
 ## Add-ons provided by this repository
