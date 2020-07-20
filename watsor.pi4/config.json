@@ -1,0 +1,33 @@
+{
+  "name": "Watsor",
+  "version": "1.0",
+  "slug": "watsor.pi4",
+  "description": "Object detection for video surveillance on Raspberry Pi 4 (64-bit OS)",
+  "url": "https://github.com/asmirnou/watsor-haasio-addons/watsor.pi4",
+  "startup": "services",
+  "boot": "auto",
+  "ports": {
+    "8080/tcp": 8080
+  },
+  "webui": "http://[HOST]:[PORT:8080]",
+  "map": [
+    "config:ro"
+  ],
+  "schema": {
+    "CONFIG_FILE": "str"
+  },
+  "options": {
+    "CONFIG_FILE": "/config/watsor/config.yaml"
+  },
+  "devices": [
+    "/dev/bus/usb:/dev/bus/usb:rwm",
+    "/dev/vcsm:/dev/vcsm:rwm",
+    "/dev/vchiq:/dev/vchiq:rwm",
+    "/dev/video10:/dev/video10:rwm",
+    "/dev/video11:/dev/video11:rwm",
+    "/dev/video12:/dev/video12:rwm"
+  ],
+  "udev": true,
+  "full_access": true,
+  "arch": ["aarch64"]
+}
