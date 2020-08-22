@@ -28,7 +28,7 @@ Click on _OPEN WEB UI_ to navigate to a simple home page, where you'll find the 
 
 Depending on whether protection mode is enabled or not, the following messages appear at the start (both can be ignored):
 
-- The add-on conainer starts the daemon to detect dynamically plugged devices and this requries the protection mode enabled.
+- The add-on container starts the daemon to detect dynamically plugged devices and this requires the protection mode enabled.
 
     ```
     Unable to start udev, container must be run in privileged mode to start udev!
