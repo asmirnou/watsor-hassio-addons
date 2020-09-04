@@ -23,5 +23,6 @@
     "/dev/bus/usb:/dev/bus/usb:rwm",
     "/dev/dri:/dev/dri:rwm"
   ],
+  "full_access": true,
   "arch": ["amd64"]
 }
