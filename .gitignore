@@ -1,0 +1,5 @@
+# Idea / PyCharm
+.idea/
+
+# files from the mac
+.DS_Store
