@@ -3,7 +3,7 @@
   "version": "1.0",
   "slug": "watsor.pi4",
   "description": "Object detection for video surveillance on Raspberry Pi 4 (64-bit OS)",
-  "url": "https://github.com/asmirnou/watsor-haasio-addons/watsor.pi4",
+  "url": "https://github.com/asmirnou/watsor-hassio-addons/tree/master/watsor.pi4",
   "startup": "services",
   "boot": "auto",
   "ports": {

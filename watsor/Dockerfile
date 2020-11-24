@@ -21,7 +21,7 @@ WORKDIR /
 COPY config.sh config.sh
 COPY start.py start.py
 
-USER watsor
+#USER watsor    # https://github.com/home-assistant/supervisor/issues/2158#issuecomment-714370975
 
 CMD ["python3", "-m", "start", \
      "--log-path", "/var/log/watsor", \

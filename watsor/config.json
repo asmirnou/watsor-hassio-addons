@@ -3,7 +3,7 @@
   "version": "1.0",
   "slug": "watsor",
   "description": "Object detection for video surveillance",
-  "url": "https://github.com/asmirnou/watsor-haasio-addons/watsor",
+  "url": "https://github.com/asmirnou/watsor-hassio-addons/tree/master/watsor",
   "startup": "services",
   "boot": "auto",
   "ports": {
@@ -19,10 +19,7 @@
   "options": {
     "CONFIG_FILE": "/config/watsor/config.yaml"
   },
-  "devices": [
-    "/dev/bus/usb:/dev/bus/usb:rwm",
-    "/dev/dri:/dev/dri:rwm"
-  ],
-  "full_access": true,
+  "usb": "true",
+  "video": "true",
   "arch": ["amd64"]
 }
